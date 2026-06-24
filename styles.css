@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow: hidden;
+  font-family: Arial, sans-serif;
+  background: #111;
+  color: white;
+}
+
+h1 {
+  position: absolute;
+  top: 15px;
+  left: 20px;
+  font-size: 2rem;
+  z-index: 10;
+}
+
+#score {
+  position: absolute;
+  top: 55px;
+  left: 20px;
+  font-size: 1.1rem;
+  color: #ddd;
+  z-index: 10;
+}
+
+#controls {
+  position: absolute;
+  top: 80px;
+  left: 20px;
+  font-size: 1rem;
+  color: #aaa;
+  z-index: 10;
+}
+
+canvas {
+  display: block;
+}
